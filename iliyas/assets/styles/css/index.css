@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+button, .phone_num a, nav a {
+  font-size: 20px;
+  font-weight: 400;
+  color: #475658;
+  text-decoration: none;
+}
+
+header {
+  padding: 20px 0;
+}
+header .container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 235px;
+}
+
+nav {
+  margin-right: 95px;
+}
+nav a:first-child {
+  margin-right: 85px;
+}
+
+.phone {
+  display: flex;
+}
+.phone_num {
+  display: flex;
+  align-items: center;
+  margin-right: 64px;
+}
+.phone_num img {
+  margin-right: 10px;
+}
+
+button {
+  background-color: white;
+  border: 1px solid #121761;
+  border-radius: 10px;
+  color: #121761;
+  padding: 12px 55px 15px 55px;
+  cursor: pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Loto" sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+/*# sourceMappingURL=index.css.map */
