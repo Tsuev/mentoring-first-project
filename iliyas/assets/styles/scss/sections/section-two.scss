@@ -1,0 +1,49 @@
+@import '../variables.scss';
+
+
+
+.image_container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 140px;
+    padding-bottom: 228px;
+
+    & :first-child {
+        background-image: url(../../img/ellipse\ first.svg);
+        background-repeat: no-repeat;
+        background-position: 72% 33%;
+    }
+
+    & :nth-child(even) {
+        background-image: url(../../img/ellipse_two.svg);
+        background-repeat: no-repeat;
+        background-position: 42% 36%;
+    }
+   
+    & :nth-child(3) {
+        background-image:url(../../img/ellipse_three.svg);
+        background-repeat: no-repeat;
+        background-position: 72% 34%;
+    }    
+
+    
+}
+
+.text_two {
+    span {
+        border: 1px solid $primary;
+        border-radius: 20px;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-bottom: 5px;
+        box-shadow: 0 4px rgb(233, 233, 233);
+    }
+    p {
+        font-size: 45px;
+        text-align: center;
+        font-weight:none;
+    }
+   
+}
+
+

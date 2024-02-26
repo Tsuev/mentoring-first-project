@@ -46,30 +46,30 @@ button {
   cursor: pointer;
 }
 
-section {
+.section-first {
   padding-top: 40px;
   color: white;
   max-height: 535px;
 }
-section .section-first {
+.section-first .section-first {
   display: flex;
   align-items: center;
 }
-section h1 {
+.section-first h1 {
   font-size: 45px;
 }
-section p {
+.section-first p {
   font-size: 16px;
   padding-bottom: 15px;
 }
-section span {
+.section-first span {
   border: 1px solid white;
   border-radius: 20px;
   padding-left: 12px;
   padding-right: 12px;
   padding-bottom: 5px;
 }
-section .but {
+.section-first .but {
   background-color: white;
   border: 1px solid #121761;
   border-radius: 10px;
@@ -78,6 +78,42 @@ section .but {
   cursor: pointer;
   margin-top: 30px;
   margin-bottom: 99px;
+}
+
+.image_container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 140px;
+  padding-bottom: 228px;
+}
+.image_container :first-child {
+  background-image: url(../../img/ellipse\ first.svg);
+  background-repeat: no-repeat;
+  background-position: 72% 33%;
+}
+.image_container :nth-child(even) {
+  background-image: url(../../img/ellipse_two.svg);
+  background-repeat: no-repeat;
+  background-position: 42% 36%;
+}
+.image_container :nth-child(3) {
+  background-image: url(../../img/ellipse_three.svg);
+  background-repeat: no-repeat;
+  background-position: 72% 34%;
+}
+
+.text_two span {
+  border: 1px solid #D44B4B;
+  border-radius: 20px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 5px;
+  box-shadow: 0 4px rgb(233, 233, 233);
+}
+.text_two p {
+  font-size: 45px;
+  text-align: center;
+  font-weight: none;
 }
 
 * {
@@ -102,6 +138,18 @@ section .but {
   background-image: url(../../img/ilustraton.png);
   background-repeat: no-repeat;
   background-position: 79% -447%;
+}
+
+.image_container {
+  max-width: 1263px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-;
+}
+
+.text_two {
+  max-width: 870px;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=index.css.map */

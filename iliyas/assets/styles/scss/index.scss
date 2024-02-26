@@ -2,6 +2,7 @@
 @import './fonts.scss';
 @import './app/header.scss';
 @import './sections/section-first.scss';
+@import './sections/section-two.scss';
 
 * {
     margin: 0;
@@ -24,4 +25,17 @@
     background-image: url(../../img/ilustraton.png);
     background-repeat: no-repeat;
     background-position: 79% -447%;
+}
+
+.image_container {
+    max-width: 1263px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-;
+}
+
+.text_two {
+    max-width: 870px;
+    margin: 0 auto;
+    
 }
