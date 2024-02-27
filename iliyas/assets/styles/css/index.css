@@ -102,6 +102,9 @@ button {
   background-position: 72% 34%;
 }
 
+.text_two {
+  padding-bottom: 105px;
+}
 .text_two span {
   border: 1px solid #D44B4B;
   border-radius: 20px;
@@ -114,6 +117,66 @@ button {
   font-size: 45px;
   text-align: center;
   font-weight: none;
+}
+
+.last_section :first-child {
+  width: 990px;
+  height: 707px;
+  background-color: rgb(192, 190, 190);
+  border-radius: 20px;
+  margin-bottom: 287px;
+}
+
+.working_hours .second_p, .working_hours .first_p, .working_hours .watch, .footer_text a {
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  background-color: #475658;
+  padding: 61px;
+}
+footer .footer_container {
+  display: flex;
+  align-items: center;
+}
+footer .logo_white {
+  margin-right: 435px;
+}
+
+.footer_text {
+  margin-right: 305px;
+}
+.footer_text .marker {
+  display: flex;
+  align-items: center;
+}
+.footer_text .marker img {
+  margin-right: 13px;
+}
+.footer_text .footer_phone {
+  display: flex;
+  align-items: center;
+}
+.footer_text .footer_phone img {
+  margin-right: 13px;
+}
+.working_hours .watch {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.working_hours .watch img {
+  margin-right: 10px;
+}
+.working_hours .first_p {
+  margin-left: 32px;
+}
+.working_hours .second_p {
+  margin-left: 32px;
 }
 
 * {
@@ -143,12 +206,20 @@ button {
 .image_container {
   max-width: 1263px;
   margin: 0 auto;
-  display: flex;
-  align-items: flex-;
 }
 
 .text_two {
   max-width: 870px;
+  margin: 0 auto;
+}
+
+.last_section {
+  margin: 0 auto;
+  max-width: 1040px;
+}
+
+.footer_container {
+  max-width: 1400px;
   margin: 0 auto;
 }
 

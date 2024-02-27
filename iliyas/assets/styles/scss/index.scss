@@ -3,6 +3,8 @@
 @import './app/header.scss';
 @import './sections/section-first.scss';
 @import './sections/section-two.scss';
+@import './sections/last_section.scss';
+@import './app/footer.scss';
 
 * {
     margin: 0;
@@ -30,12 +32,20 @@
 .image_container {
     max-width: 1263px;
     margin: 0 auto;
-    display: flex;
-    align-items: flex-;
 }
 
 .text_two {
     max-width: 870px;
     margin: 0 auto;
     
+}
+
+.last_section {
+    margin: 0 auto;
+    max-width: 1040px;
+}
+
+.footer_container{
+    max-width: 1400px;
+    margin: 0 auto;
 }

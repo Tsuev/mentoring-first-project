@@ -1,0 +1,53 @@
+.working_hours .second_p, .working_hours .first_p, .working_hours .watch, .footer_text a {
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  background-color: #475658;
+  padding: 61px;
+}
+footer .footer_container {
+  display: flex;
+  align-items: center;
+}
+footer .logo_white {
+  margin-right: 435px;
+}
+
+.footer_text {
+  margin-right: 305px;
+}
+.footer_text .marker {
+  display: flex;
+  align-items: center;
+}
+.footer_text .marker img {
+  margin-right: 13px;
+}
+.footer_text .footer_phone {
+  display: flex;
+  align-items: center;
+}
+.footer_text .footer_phone img {
+  margin-right: 13px;
+}
+.working_hours .watch {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.working_hours .watch img {
+  margin-right: 10px;
+}
+.working_hours .first_p {
+  margin-left: 32px;
+}
+.working_hours .second_p {
+  margin-left: 32px;
+}
+
+/*# sourceMappingURL=footer.css.map */
