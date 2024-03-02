@@ -1,13 +1,74 @@
 @import '../variables.scss';
 
-.last_section {
 
-    & :first-child {
-        width: 990px;
-        height: 707px;
-        background-color: rgb(192, 190, 190);
-        border-radius: 20px;
-        margin-bottom: 287px;
+%last_section {
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: $secondary;
+}
+.last_section {  
+    width: 1040px;
+    height: 710px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.1);
+    position: relative;
     
+    .image {
+        background-color: $primary;
+        height: 710px;
+        width: 282px;
+        img {
+            height: 100%;
+        }
     }
+
+    .text_info {
+        padding: 70px;
+
+        .p_first {
+            span {
+                color: $primary;
+            }
+        }
+
+        .p_second {
+            font-size: 40px;
+            margin-top: 80px;
+            margin-bottom: 30px;
+
+        }
+
+        button {
+            height: 72px;
+            width: 460px;
+            background-color: $primary;
+            color: white;
+            font-size: 23px;
+            font-weight: bold;
+            margin-bottom: 45px;
+            border: none;
+        }
+        .txt {
+            font-size: 16px;
+            max-width: 354px;
+            line-height: 26px;
+
+            p {
+                margin-bottom: 42px;
+            }
+            ol {
+                padding-left: 20px;
+            }
+        }
+
+    }
+
+    .line {
+        position: absolute;
+        right: 165px;
+        bottom: 180px;
+    }
+    
 }
